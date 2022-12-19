@@ -35,3 +35,26 @@ plots of accuracy and loss and training and validation sets
 ![Screenshot 2022-12-19 154430](https://user-images.githubusercontent.com/78556152/208429189-3e6cbb71-3a7b-410a-9fa3-3fc9de670466.png)
 
 From the above plot, it is clear that there was overfitting, evident by training and validation accuracies being off by large margin
+
+I used to two techniques to reduce overfitting.
+
+1. Data Augmentation - generating more training examples from the existing data. Below is an example of an augmented dataset
+
+![Screenshot 2022-12-19 161307](https://user-images.githubusercontent.com/78556152/208434451-c8d3f0a5-aa1b-4a39-8db7-1d9781d7a181.png)
+
+2. Introduced dropout in the network to help reduce overfitting further
+![Screenshot 2022-12-19 162117](https://user-images.githubusercontent.com/78556152/208435367-15b6f2ca-6d82-4652-a5c4-41163c87f852.png)
+
+
+I compiled created a new model, compiled and trained it for 15 epochs and the results were remarkable.
+![Screenshot 2022-12-19 162451](https://user-images.githubusercontent.com/78556152/208435964-d0971c9b-af77-4640-bbed-a3f8edc57d4f.png)
+
+## Visualizing the training results of my new model
+![Screenshot 2022-12-19 162734](https://user-images.githubusercontent.com/78556152/208436482-aedc762f-2605-4c53-b3e5-2c71217c3033.png)
+
+## Prediction on new data
+
+It made an accurate prediction when an image was laoded and tested
+![Screenshot 2022-12-19 162937](https://user-images.githubusercontent.com/78556152/208436999-21573bfc-f046-43ee-af30-5a27ca8dc851.png)
+
+
