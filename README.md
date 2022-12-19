@@ -27,3 +27,11 @@ I created a keras Sequential model and compiled it. Below is the model's summary
 I trained the model for 10 epochs as show below.
 
 ![Screenshot 2022-12-19 153741](https://user-images.githubusercontent.com/78556152/208427966-1bf87568-27e9-4f9d-a4ec-1e352e26b4ef.png)
+
+
+## Visualize training results
+
+plots of accuracy and loss and training and validation sets
+![Screenshot 2022-12-19 154430](https://user-images.githubusercontent.com/78556152/208429189-3e6cbb71-3a7b-410a-9fa3-3fc9de670466.png)
+
+From the above plot, it is clear that there was overfitting, evident by training and validation accuracies being off by large margin
