@@ -31,12 +31,12 @@ I trained the model for 10 epochs as show below.
 
 ## Visualize training results
 
-plots of accuracy and loss and training and validation sets
+plots of accuracy and loss on training and validation sets
 ![Screenshot 2022-12-19 154430](https://user-images.githubusercontent.com/78556152/208429189-3e6cbb71-3a7b-410a-9fa3-3fc9de670466.png)
 
 From the above plot, it is clear that there was overfitting, evident by training and validation accuracies being off by large margin
 
-I used to two techniques to reduce overfitting.
+I used two techniques to reduce overfitting.
 
 1. Data Augmentation - generating more training examples from the existing data. Below is an example of an augmented dataset
 
@@ -46,7 +46,7 @@ I used to two techniques to reduce overfitting.
 ![Screenshot 2022-12-19 162117](https://user-images.githubusercontent.com/78556152/208435367-15b6f2ca-6d82-4652-a5c4-41163c87f852.png)
 
 
-I compiled created a new model, compiled and trained it for 15 epochs and the results were remarkable.
+I created a new model, compiled and trained it for 15 epochs and the results were remarkable.
 ![Screenshot 2022-12-19 162451](https://user-images.githubusercontent.com/78556152/208435964-d0971c9b-af77-4640-bbed-a3f8edc57d4f.png)
 
 ## Visualizing the training results of my new model
