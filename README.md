@@ -58,3 +58,7 @@ It made an accurate prediction when an image was laoded and tested
 ![Screenshot 2022-12-19 162937](https://user-images.githubusercontent.com/78556152/208436999-21573bfc-f046-43ee-af30-5a27ca8dc851.png)
 
 
+## Save the model
+I finally saved the model then served it with tensorflow serving in docker during deployment
+
+![Screenshot 2022-12-19 163305](https://user-images.githubusercontent.com/78556152/208437768-30dcdcae-5299-4bd3-a1e4-254350f384f6.png)
