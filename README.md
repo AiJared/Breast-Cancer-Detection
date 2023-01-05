@@ -58,11 +58,12 @@ Two techniques are used to solve the overfitting problem:
 ![Screenshot 2023-01-05 121254](https://user-images.githubusercontent.com/78556152/210743834-9234c2c0-8252-46b8-a519-9ded165aa05f.png)
 
 
-I created a new model, compiled and trained it for 15 epochs and the results were remarkable.
-![Screenshot 2022-12-19 162451](https://user-images.githubusercontent.com/78556152/208435964-d0971c9b-af77-4640-bbed-a3f8edc57d4f.png)
+A new keras model is trained with 15 epochs and the results are remarkable. The training accuracy is 80% and the validation accuracy is 78%. The closeness of the training results indicate that the model fit well. This is also shown in the training results below.
 
-## Visualizing the training results of my new model
-![Screenshot 2022-12-19 162734](https://user-images.githubusercontent.com/78556152/208436482-aedc762f-2605-4c53-b3e5-2c71217c3033.png)
+## Visualizing the Training Results of the New Model
+
+![training_and_validation_accuracy_and_loss_2](https://user-images.githubusercontent.com/78556152/210744936-68980afa-25ea-45d8-a584-67d49918c45c.png)
+
 
 ## Prediction on new data
 
