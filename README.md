@@ -72,7 +72,7 @@ The model's prediction results on new data are great. It gives good results with
 ![Screenshot 2023-01-05 122417](https://user-images.githubusercontent.com/78556152/210746068-4cfff8b7-954b-4827-9c3f-66867ff40895.png)
 
 
-## Save the model
-I finally saved the model then served it with tensorflow serving in docker during deployment
+## Saving the Model and Serving it with Tensorflow Serving in Docker to Production
+The model is saved in "tf" format and served with tensorflow serving in docker to production.
 
-![Screenshot 2022-12-19 163305](https://user-images.githubusercontent.com/78556152/208437768-30dcdcae-5299-4bd3-a1e4-254350f384f6.png)
+![Screenshot 2023-01-05 122908](https://user-images.githubusercontent.com/78556152/210747081-0ea536d2-0567-45ab-ae7c-8035b8fd8ffb.png)
