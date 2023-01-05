@@ -1,11 +1,10 @@
 # Breast-Cancer-Detection
-A deep learning project of breast cancer detection using tensorflow
+### A Deep Learning Project for Breast Cancer Detection using Tensorflow
 
+Breast cancer is one of the most common causes of death among women worldwide. Early detection helps in reducing the number of early deaths. This project is aimed at detecting the cancer based on the medical images of breast cancer using ultrasound scan. Breast Ultrasound Dataset used in this project is categorized into three classes: normal, benign, and malignant images. Breast ultrasound images can produce great results in classification, detection, and segmentation of breast cancer when combined with machine learning.
 
-Given a dataset of breast cancer images, I created this project to classify them in classes of benign, malignant and normal together with their masked images respectively.
-Here a keras model is trained for classification then a prediction is made on new data.
-
-The dataset was downloaded from kaggle then loaded from my local storage.
+## Data
+The data collected at baseline include breast ultrasound images among women in ages between 25 and 75 years old. This data was collected in 2018. The number of patients is 600 female patients. The dataset consists of 780 images with an average image size of 500*500 pixels. The images are in PNG format. The ground truth images are presented with original images. The images are categorized into three classes, which are normal, benign, and malignant.
 
 Below is a benign image
 
