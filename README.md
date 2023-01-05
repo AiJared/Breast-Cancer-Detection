@@ -32,15 +32,18 @@ Below is the model's summary
 
 ![Screenshot 2023-01-05 115732](https://user-images.githubusercontent.com/78556152/210740926-f963cf36-184d-401b-b5d7-10018d634221.png)
 
-I trained the model for 10 epochs as show below.
+Below are part of the results from training the model for 10 epochs
 
-![Screenshot 2022-12-19 153741](https://user-images.githubusercontent.com/78556152/208427966-1bf87568-27e9-4f9d-a4ec-1e352e26b4ef.png)
-
+![Screenshot 2023-01-05 120201](https://user-images.githubusercontent.com/78556152/210741663-b52a4b43-021d-4d6c-9952-677ee5bd4bee.png)
 
 ## Visualize training results
 
-plots of accuracy and loss on training and validation sets
-![Screenshot 2022-12-19 154430](https://user-images.githubusercontent.com/78556152/208429189-3e6cbb71-3a7b-410a-9fa3-3fc9de670466.png)
+Plots of accuracy and loss on training and validation sets indicate evidence of overfitting. This is shown by a wide margin between training and validation accuracy and loss as shown in the image below. 
+
+The same is also evident in the training results above, where by the training accuracy is 0.9873 and the validation accuracy is 0.8063. Clearly the margin between the two is huge and the same is true for losses. 
+
+![training_and_validation_accuracy_and_loss_1](https://user-images.githubusercontent.com/78556152/210742587-adeaa7c1-0576-4d07-891d-638565370e9d.png)
+
 
 From the above plot, it is clear that there was overfitting, evident by training and validation accuracies being off by large margin
 
