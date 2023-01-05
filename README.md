@@ -67,8 +67,9 @@ A new keras model is trained with 15 epochs and the results are remarkable. The 
 
 ## Prediction on new data
 
-It made an accurate prediction when an image was laoded and tested
-![Screenshot 2022-12-19 162937](https://user-images.githubusercontent.com/78556152/208436999-21573bfc-f046-43ee-af30-5a27ca8dc851.png)
+The model's prediction results on new data are great. It gives good results with a high percentage accuracy and confidence as shown in the code snippet below.
+
+![Screenshot 2023-01-05 122417](https://user-images.githubusercontent.com/78556152/210746068-4cfff8b7-954b-4827-9c3f-66867ff40895.png)
 
 
 ## Save the model
