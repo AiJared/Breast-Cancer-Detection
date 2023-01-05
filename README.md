@@ -33,7 +33,7 @@ Below is the model's summary;
 
 ![Screenshot 2023-01-05 115732](https://user-images.githubusercontent.com/78556152/210740926-f963cf36-184d-401b-b5d7-10018d634221.png)
 
-Below are part of the results from training the model for 10 epochs;
+Below are parts of the results from training the model for 10 epochs;
 
 ![Screenshot 2023-01-05 120201](https://user-images.githubusercontent.com/78556152/210741663-b52a4b43-021d-4d6c-9952-677ee5bd4bee.png)
 
