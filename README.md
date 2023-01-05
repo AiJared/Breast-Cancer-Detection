@@ -45,16 +45,17 @@ The same is also evident in the training results above, where by the training ac
 ![training_and_validation_accuracy_and_loss_1](https://user-images.githubusercontent.com/78556152/210742587-adeaa7c1-0576-4d07-891d-638565370e9d.png)
 
 
-From the above plot, it is clear that there was overfitting, evident by training and validation accuracies being off by large margin
+## Solving the Problem of Overfitting
 
-I used two techniques to reduce overfitting.
+Two techniques are used to solve the overfitting problem:
 
-1. Data Augmentation - generating more training examples from the existing data. Below is an example of an augmented dataset
+1. Data Augmentation - generating more training examples from the existing data. Below is an example of an augmented image
 
-![Screenshot 2022-12-19 161307](https://user-images.githubusercontent.com/78556152/208434451-c8d3f0a5-aa1b-4a39-8db7-1d9781d7a181.png)
+![sample_augmented_images](https://user-images.githubusercontent.com/78556152/210743280-92a1b024-ad29-4bac-bc07-55125e243a92.png)
 
-2. Introduced dropout in the network to help reduce overfitting further
-![Screenshot 2022-12-19 162117](https://user-images.githubusercontent.com/78556152/208435367-15b6f2ca-6d82-4652-a5c4-41163c87f852.png)
+2. Adding a dropout layer to the model.
+
+![Screenshot 2023-01-05 121254](https://user-images.githubusercontent.com/78556152/210743834-9234c2c0-8252-46b8-a519-9ded165aa05f.png)
 
 
 I created a new model, compiled and trained it for 15 epochs and the results were remarkable.
