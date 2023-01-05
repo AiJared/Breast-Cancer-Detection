@@ -2,14 +2,14 @@
 A deep learning project of breast cancer detection using tensorflow
 
 
-Given a dataset of breast cancer images, I created this project to classify them in classes of beningn and malignant.
+Given a dataset of breast cancer images, I created this project to classify them in classes of benign, malignant and normal together with their masked images respectively.
 Here a keras model is trained for classification then a prediction is made on new data.
 
-The dataset was downloaded then loaded from my local storage, i.e, saved in the same directory as my project's jupyter file
+The dataset was downloaded from kaggle then loaded from my local storage.
 
 Below is a benign image
 
-![Screenshot 2022-12-19 151652](https://user-images.githubusercontent.com/78556152/208424435-4009f7eb-fde5-4da3-b83b-770cf737c97e.png)
+![sample_benign_tumor](https://user-images.githubusercontent.com/78556152/210738678-258b9e33-9091-47df-8415-230c45734417.png)
 
 I defined the parameters for the loader, that is; batch_size of 32, image height of 180 and image width of 180 
 
