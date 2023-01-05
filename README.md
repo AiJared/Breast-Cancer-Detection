@@ -75,3 +75,7 @@ The model's prediction results on new data are great. It gives good results with
 The model is saved in "tf" format and served with tensorflow serving in docker to production.
 
 ![Screenshot 2023-01-05 122908](https://user-images.githubusercontent.com/78556152/210747081-0ea536d2-0567-45ab-ae7c-8035b8fd8ffb.png)
+
+## Conclusion
+
+This project's objectives are met, the model can classify Breast Utrasound Images into benign, malignant or normal and detect presence of cancer. Though more research is still being done on more solutions to Breast Cancer by Artificial Intelligence, it gives a conclusion that machine learning can be used to check for breast cancer and help handle it as early as possible and reduce deaths of women by breast cancer. Peace.
