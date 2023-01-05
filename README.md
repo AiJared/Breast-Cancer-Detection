@@ -11,18 +11,26 @@ Below is a benign image
 
 ![sample_benign_tumor](https://user-images.githubusercontent.com/78556152/210738678-258b9e33-9091-47df-8415-230c45734417.png)
 
-I defined the parameters for the loader, that is; batch_size of 32, image height of 180 and image width of 180 
+## Defining Some Parameter
 
-I then split my dataset into training and validation sets. Assigned 80% of my data to training set and the remaining 20% to validation set
+batch_size set to 32, 
+image height set to 180 and 
+image width set to 180 
+
+## Splitting the Dataset for Training and Validation
+
+The data is split into training and validation sets. 80% of the data is assigned to training and the remaining 20% assigned to validation
 
 Here are some images from my training set
 
-![Screenshot 2022-12-19 152549](https://user-images.githubusercontent.com/78556152/208425910-57ef17fa-f4b8-43d2-81ca-662fa2a75c20.png)
+![sample_training_images](https://user-images.githubusercontent.com/78556152/210739786-b4122950-a5c4-4f60-a7c2-913df343a9df.png)
 
-I configured the dataset for perfomance with data.cache and data.prefetch methods. I then standardized the RGB channel values in [0,1] range using tf.keras.Rescalling.
 
-I created a keras Sequential model and compiled it. Below is the model's summary
-![Screenshot 2022-12-19 153421](https://user-images.githubusercontent.com/78556152/208427325-4c9ddca0-0170-43d4-8b62-5b9c6941f828.png)
+The dataset is configured for performance and a keras model is created.
+
+Below is the model's summary
+
+![Screenshot 2023-01-05 115732](https://user-images.githubusercontent.com/78556152/210740926-f963cf36-184d-401b-b5d7-10018d634221.png)
 
 I trained the model for 10 epochs as show below.
 
