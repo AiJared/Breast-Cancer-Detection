@@ -6,32 +6,34 @@ Breast cancer is one of the most common causes of death among women worldwide. E
 ## Data
 The data collected at baseline include breast ultrasound images among women in ages between 25 and 75 years old. This data was collected in 2018. The number of patients is 600 female patients. The dataset consists of 780 images with an average image size of 500*500 pixels. The images are in PNG format. The ground truth images are presented with original images. The images are categorized into three classes, which are normal, benign, and malignant.
 
-Below is a benign image
+Below is a benign image;
 
 ![sample_benign_tumor](https://user-images.githubusercontent.com/78556152/210738678-258b9e33-9091-47df-8415-230c45734417.png)
 
 ## Defining Some Parameter
 
-batch_size set to 32, 
-image height set to 180 and 
-image width set to 180 
+  . batch_size set to 32, 
+  
+  . image height set to 180 and 
+  
+  . image width set to 180. 
 
 ## Splitting the Dataset for Training and Validation
 
-The data is split into training and validation sets. 80% of the data is assigned to training and the remaining 20% assigned to validation
+The data is split into training and validation sets. 80% of the data is assigned to training and the remaining 20% assigned to validation.
 
-Here are some images from my training set
+Here are some images from my training set;
 
 ![sample_training_images](https://user-images.githubusercontent.com/78556152/210739786-b4122950-a5c4-4f60-a7c2-913df343a9df.png)
 
 
 The dataset is configured for performance and a keras model is created.
 
-Below is the model's summary
+Below is the model's summary;
 
 ![Screenshot 2023-01-05 115732](https://user-images.githubusercontent.com/78556152/210740926-f963cf36-184d-401b-b5d7-10018d634221.png)
 
-Below are part of the results from training the model for 10 epochs
+Below are part of the results from training the model for 10 epochs;
 
 ![Screenshot 2023-01-05 120201](https://user-images.githubusercontent.com/78556152/210741663-b52a4b43-021d-4d6c-9952-677ee5bd4bee.png)
 
@@ -48,7 +50,9 @@ The same is also evident in the training results above, where by the training ac
 
 Two techniques are used to solve the overfitting problem:
 
-1. Data Augmentation - generating more training examples from the existing data. Below is an example of an augmented image
+1. Data Augmentation - generating more training examples from the existing data. 
+
+Below is an example of an augmented image;
 
 ![sample_augmented_images](https://user-images.githubusercontent.com/78556152/210743280-92a1b024-ad29-4bac-bc07-55125e243a92.png)
 
